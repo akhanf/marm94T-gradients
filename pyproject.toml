@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "marm94T-gradients"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "marm94T-gradients"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+nibabel = "^5.1.0"
+nilearn = "^0.10.1"
+brainspace = "^0.1.10"
+jupyterlab = "^4.0.5"
+neuromaps = "^0.0.4"
+seaborn = "^0.12.2"
+pandas = "^2.0.3"
+numpy = "^1.25.2"
+scipy = "^1.11.1"
+matplotlib = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
